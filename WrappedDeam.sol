@@ -98,5 +98,5 @@ contract Deam {
 }
 
 contract WrappedDeam is Deam {
-    constructor () Deam("Wrapped Deam", "WDEAM", 10 ** 18) {}
+    constructor () Deam("Wrapped Deam", "WDEAM", 1e9 * 1e18) {}
 }
